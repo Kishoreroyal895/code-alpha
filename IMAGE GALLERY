@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Image Gallery</h1>
+
+<div class="gallery">
+    <img src="https://pin.it/5cnA1EMek" onclick="openImage(this.src)">
+    <img src="https://pin.it/2Ygy3nAGm" onclick="openImage(this.src)">
+  
+</div>
+
+<div id="lightbox">
+    <span onclick="closeImage()">&times;</span>
+    <img id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
